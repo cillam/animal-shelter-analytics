@@ -54,3 +54,4 @@ htmlcov/
 
 PROJECT_LOG.md
 PROJECT_TRACKER.md
+data/*.csv
