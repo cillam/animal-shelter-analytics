@@ -51,3 +51,6 @@ htmlcov/
 .env
 .env.local
 .env.*.local
+
+PROJECT_LOG.md
+PROJECT_TRACKER.md
