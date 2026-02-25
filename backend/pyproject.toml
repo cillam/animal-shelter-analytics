@@ -20,6 +20,11 @@ pyodbc = "^5.2.0"
 pytest = "^8.0.0"
 black = "^24.0.0"
 ruff = "^0.8.0"
+jupyter = "^1.1.1"
+pandas = "^3.0.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
+scikit-learn = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]

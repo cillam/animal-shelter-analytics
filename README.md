@@ -1,4 +1,4 @@
-# Shelter Analytics Platform
+# Animal Shelter Analytics Platform
 
 A full-stack application for shelter animal analytics, outcome prediction, and adoption bio generation.
 
@@ -11,22 +11,14 @@ A full-stack application for shelter animal analytics, outcome prediction, and a
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | React + Vite |
-| Frontend Hosting | Azure Static Web Apps |
-| Backend | Python + FastAPI |
-| Backend Compute | Azure Container Apps |
-| Data Platform | Azure Databricks |
-| Database | Azure SQL |
-| Dashboards | Power BI Embedded |
-| IaC | Terraform |
-| CI/CD | GitHub Actions |
+**App**: React, FastAPI, PostgreSQL  
+**Data Platform**: Azure Databricks, Power BI  
+**Infrastructure**: Terraform, GitHub Actions, Azure
 
 ## Project Structure
 
 ```
-shelter-analytics/
+animal-shelter-analytics/
 ├── .github/workflows/     # CI/CD pipelines
 ├── frontend/              # React application
 ├── backend/               # FastAPI application
@@ -78,6 +70,3 @@ npm run test
 - **Staging**: Merges to `dev` branch deploy to staging environment
 - **Production**: Merges to `main` branch deploy to production environment
 
-## License
-
-MIT
